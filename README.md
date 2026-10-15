@@ -28,10 +28,12 @@ This demo has no sign-in; visitors share its project records. Use synthetic data
 
 ## Deployment
 
-Hosted URL: **Not deployed yet.** Add the actual Vercel URL after deployment.
+Production URL: https://student-project-tracker-live-sooty.vercel.app/
 
 ## Verification
 
-- Supabase table schema ran successfully.
-- The local API returned a project from Supabase.
-- UI create, edit, delete, restart persistence, and Vercel deployment are pending.
+- The Supabase schema was created successfully.
+- The production homepage and `/api/health` returned successfully.
+- Hosted API create, list, update, and delete were verified; the temporary verification record was removed.
+- The learner confirmed the hosted UI workflow and access from a phone.
+- Vercel deployments run from the connected GitHub repository; Supabase stores hosted records separately from source.
